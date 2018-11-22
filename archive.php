@@ -14,6 +14,7 @@ get_header(); ?>
             <section class="archive-page-section">
                 <div class="container">
 					<?php
+					// some comment here.
 					if ( have_posts() ) : ?>
 						<?php /* ?>
 						<header class="page-header">

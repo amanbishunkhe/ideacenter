@@ -1,0 +1,374 @@
+/*  Media Queries
+--------------------------- */
+@media only screen and (max-width:1999px){
+.testimonial-section::before {
+    width: 39%;
+}
+
+}
+
+@media only screen and (max-width:1599px){
+.testimonial-section::before {
+    width: 33.5%;
+}
+
+}
+
+@media only screen and (max-width:1299px){
+.testimonial-section::before {
+    width: 30%;
+}
+
+}
+
+
+@media only screen and (max-width:1199px){
+.banner-section {
+    padding: 205px 0 70px;
+}
+.event-date-child {
+    padding: 18px 30px 17px;
+}
+.event-information-text:nth-child(2n+1) {
+    padding-right: 25px;
+}
+.event-information-text:nth-child(2n+2) {
+    padding-left: 25px;
+}
+.testimonial-content-wrapper {
+    width: 70%;
+    width: calc(100% - 295px);
+    width: -webkit-calc(100% - 295px);
+}
+.sponser-logo {
+    padding: 0 30px;
+}
+.testimonial-section::before {
+    width: 34%;
+}
+
+
+}
+
+/* Tablet Portrait size to standard 1024 (devices and browsers) */
+
+
+@media only screen and (max-width:1023px){
+.banner-content-section h2 {
+    font-size: 45px;
+}
+.banner-content-section h3 {
+    font-size: 32px;
+}
+.event-date-child span {
+    font-size: 17px;
+}
+.entry-title {
+    font-size: 24px;
+}
+.event-date-child::before {
+    height: 118px;
+}
+.event-information-section .section-title {
+    font-size: 26px;
+}
+.highlight-banner-content h3 {
+    font-size: 18px;
+}
+.event-information-text:nth-child(2n+1) {
+    padding-right: 15px;
+}
+.event-information-text:nth-child(2n+2) {
+    padding-left: 15px;
+}
+.event-information-text h3 {
+    font-size: 20px;
+}
+.testimonial-image-wrap {
+    float: none;
+}
+.speaker-info {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+}
+.section-title {
+    font-size: 30px;
+}
+input,
+.sg-submit-button {
+    height: 45px;
+}
+.sg-type-menu select {
+    height: 45px !important;
+}
+.testimonial-section::before {
+    width: 32%;
+}
+.testimonial-image img{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width:991px){
+.testimonial-section::before {
+    width: 40%;
+}
+
+
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width:767px){
+    .error-404 {
+        width: 100%;
+        margin: 30px auto;
+        padding: 0 10px;
+    }
+    .error-404 h1 {
+        font-size: 15px;
+    }
+    .error-404 .page-header {
+        margin: 20px 0 10px;
+    }
+    .banner-content-section h3 {
+    font-size: 24px;
+}
+.highlight-banner-content h3 {
+    font-size: 16px;
+}
+.banner-content-section h2 {
+    font-size: 34px;
+}
+.box-button {
+    font-size: 18px;
+}
+.event-date-section {
+    padding: 65px 0 45px;
+}
+.event-date-child {
+    margin-bottom: 20px;
+}
+.event-information-text:nth-child(2n+1) {
+    padding-right: 0;
+}
+.event-information-text:nth-child(2n+2) {
+    padding-left: 0px;
+}
+.event-information-text {
+    width: 100%;
+    float: none;
+    margin-bottom: 35px;
+}
+.event-information-text h3 {
+    padding-bottom: 15px;
+}
+.event-information-text h3::before {
+    bottom: 10px;
+}
+.event-information-wrapper {
+    margin-top: 10px;
+}
+.event-information-section {
+    padding: 0px 0 50px;
+}
+.testimonial-section {
+    padding: 40px 0 25px;
+}
+.speaker {
+    float: none;
+    margin-top: 56px;
+    width: 50%;
+}
+.testimonial-section::before {
+    width: 50%;
+    top: 76px;
+}
+.testimonial-content-wrapper {
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+.testimonial-image-wrap {
+    float: none;
+    margin: auto;
+}
+.sponser-section {
+    padding: 40px 0 55px;
+}
+.sponser-slider {
+    padding: 30px 0 0;
+}
+.event-registration-section {
+    padding: 40px 0 45px;
+}
+.sg-type-group .sg-group-item {
+    padding: 0 0 1em;
+    float: none;
+    width: 100%;
+}
+.footer-right {
+    float: none;
+    text-align: center;
+    margin: auto;
+}
+.footer-left {
+    float: none;
+    width: 100%;
+}
+.sg-submit-button{
+    padding: 8px;
+}
+.site-footer {
+    padding: 23px 0 22px;
+}
+
+
+
+}
+@media only screen and (max-width:567px){
+
+    .col-xs-1,
+    .col-xs-2,
+    .col-xs-3,
+    .col-xs-4,
+    .col-xs-5,
+    .col-xs-6,
+    .col-xs-7,
+    .col-xs-8,
+    .col-xs-9,
+    .col-xs-10,
+    .col-xs-11,
+    .col-xs-12{
+        width: 100%;
+    }
+
+    input[type="text"], 
+    input[type="password"], 
+    textarea, 
+    input[type="email"], 
+    input[type="tel"], 
+    select{
+        width:100%;
+    }
+.highlight-banner-content h3 {
+    font-size: 14px;
+}
+.highlight-banner-content {
+    padding: 10px 12px 0px 74px;
+}
+.testimonial-section::before {
+    width: 56%;
+    top: 76px;
+    left: -10vw;
+}
+.sponser-logo {
+    padding: 0 20px;
+}
+.sg-content {
+    padding: 28px 30px 8px;
+}
+h1.sg-title {
+    font-size: 20px;
+}
+
+
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width:479px){
+body {
+    font-size: 14px;
+}
+.highlight-banner-content {
+    padding: 2px 12px 0px 62px;
+    width: 86%;
+}
+.highlight-banner-content::before {
+    width: 110%;
+    left: -4.5%;
+}
+.banner-content-section h2 {
+    font-size: 24px;
+}
+.banner-content-section h3 {
+    font-size: 16px;
+}
+.box-button {
+    font-size: 16px;
+    padding: 11px 30px 8px;
+}
+.banner-section {
+    padding: 205px 0 50px;
+}
+.event-date-section {
+    padding: 40px 0 25px;
+}
+.event-information-section .section-title {
+    font-size: 20px;
+}
+.event-information-section .section-title::before {
+    width: 113%;
+}
+.event-information-text {
+    margin-bottom: 20px;
+}
+.event-information-section {
+    padding: 0px 0 40px;
+}
+.testimonial-section .entry-title {
+    font-size: 24px;
+}
+.testimonial-section::before {
+    height: 95px;
+    width: 60%;
+}
+.testimonial-image {
+    max-width: 300px;
+    margin: 0 auto 25px;
+}
+
+.author-name {
+    font-size: 22px;
+}
+.designation {
+    font-size: 16px;
+    }
+.menu-social-link-container li a::before {
+    font-size: 18px;
+}
+.menu-social-link-container li a {
+    height: 40px;
+    padding: 6px 0 0;
+    width: 40px;
+}
+.sponser-section {
+    padding: 35px 0 45px;
+}
+.sponser-logo {
+    padding: 0 30px;
+}
+.section-title {
+    font-size: 20px;
+}
+h1.sg-title {
+    font-size: 17px;
+    padding: 12px 10px 13px;
+}
+.sg-content {
+    padding: 23px 20px 8px;
+}
+.sg-type-group .sg-group-item {
+    padding: 0 0 8px;
+}
+.sg-list li {
+    padding: 12px 5px 6px !important;
+}
+.sponser-slider {
+    padding: 15px 0 0;
+}
+
+
+
+}
